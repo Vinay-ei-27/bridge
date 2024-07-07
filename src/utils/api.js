@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:4000',
+  baseURL: 'https://bridge-backend-theta.vercel.app/',
 });
 
 export const fetchTokens = (id) => API.get(`/tokens?chainId=${id}`);

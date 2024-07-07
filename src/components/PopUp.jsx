@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import '../../public/css/pop-up.css';
+import '../css/pop-up.css';
 import Loader from './Loader.jsx';
 
 const Popup = ({ isOpen, handleClose, handleTransaction, showLoader, transactionDetail, hideContent }) => {

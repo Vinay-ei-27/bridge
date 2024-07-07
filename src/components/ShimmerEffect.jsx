@@ -1,4 +1,4 @@
-import '../../public/css/shimmer.css';
+import '../css/shimmer.css';
 
 const ShimmerEffect = () => (
   <div style={{ marginLeft: '20px' }}>
